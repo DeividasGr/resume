@@ -1,4 +1,5 @@
-import './App.css';
+import Pill from './components/BtnPill';
+import './index.css';
 
 function App() {
   return (
@@ -91,31 +92,17 @@ function App() {
           <div className="skills">
             <h3>PERSONAL SKILLS</h3>
             <div className="border"></div>
-            <p>
-              <span className="green">TEAMWORK</span>
-            </p>
-            <p>
-              <span className="yellow">COMMUNICATION</span>
-            </p>
-            <p>
-              <span className="red">ORGANIZATION</span>
-            </p>
+            <Pill color="green">TEAMWORK</Pill>
+            <Pill color="yellow">COMMUNICATION</Pill>
+            <Pill color="red">ORGANIZATION</Pill>
           </div>
           <div className="tech-skills">
             <h3>TECHNICAL SKILLS</h3>
             <div className="border"></div>
-            <p>
-              <span className="green">HTML</span>
-            </p>
-            <p>
-              <span className="green">CSS/SCSS</span>
-            </p>
-            <p>
-              <span className="yellow">JAVASCRIPT</span>
-            </p>
-            <p>
-              <span className="yellow">REACT.JS</span>
-            </p>
+            <Pill color="green">HTML</Pill>
+            <Pill color="green">CSS/SCSS</Pill>
+            <Pill color="yellow">JAVASCRIPT</Pill>
+            <Pill color="yellow">REACT.JS</Pill>
           </div>
         </section>
         <section>

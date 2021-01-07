@@ -134,21 +134,6 @@ LINKS, ABOUT ME, EDUCATION, PERSONAL SKILLS
   width: 200px;
   margin: 10px 0;
 }
-.green {
-  background-color: var(--color-green);
-  border-radius: 10px;
-  padding: 5px;
-}
-.yellow {
-  background-color: var(--color-yellow);
-  border-radius: 10px;
-  padding: 5px;
-}
-.red {
-  background-color: var(--color-red);
-  border-radius: 10px;
-  padding: 5px;
-}
 /**
 WORK EXPERIENCE
 */
