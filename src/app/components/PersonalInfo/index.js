@@ -7,17 +7,13 @@ function PersonalInfo({ jobPosition, jobInfo = [], description, list = [] }) {
       <h4>{jobPosition}</h4>
       {jobInfo.map((info, index) => (
         <div key={index}>
-          <p>{info.company}</p>
-          <p>{info.date}</p>
+          <p {...info}></p>
         </div>
       ))}
       <p>{description}</p>
       <ul>
-        {list.map((singleList) => (
-          <>
-            <li>{singleList.listItem}</li>
-            <li>{singleList.listItem2}</li>
-          </>
+        {list.map((singleList, index) => (
+          <li key={index} {...singleList} />
         ))}
       </ul>
     </div>

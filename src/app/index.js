@@ -98,41 +98,38 @@ function App() {
           <div className="work-row">
             <PersonalInfo
               jobPosition="JOB POSITION #1"
-              jobInfo={[{ company: 'Company #1', date: '2018-present' }]}
+              jobInfo={[
+                { children: 'Company #1' },
+                { children: '2018-present' },
+              ]}
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
               non alias eius aliquid obcaecati quaerat consectetur suscipit
               consequuntur incidunt tempora."
               list={[
-                {
-                  listItem: 'Lorem, ipsum dolor.',
-                  listItem2: 'Lorem, ipsum dolor.',
-                },
+                { children: 'Lorem, ipsum dolor.' },
+                { children: 'Lorem, ipsum dolor.' },
               ]}
             />
             <PersonalInfo
               jobPosition="JOB POSITION #2"
-              jobInfo={[{ company: 'Company #2', date: '2017 - 2018' }]}
+              jobInfo={[{ children: 'Company #2' }, { children: '2017-2018' }]}
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
               non alias eius aliquid obcaecati quaerat consectetur suscipit
               consequuntur incidunt tempora."
               list={[
-                {
-                  listItem: 'Lorem, ipsum dolor.',
-                  listItem2: 'Lorem, ipsum dolor.',
-                },
+                { children: 'Lorem, ipsum dolor.' },
+                { children: 'Lorem, ipsum dolor.' },
               ]}
             />
             <PersonalInfo
               jobPosition="JOB POSITION #3"
-              jobInfo={[{ company: 'Company #3', date: '2015 - 2017' }]}
+              jobInfo={[{ children: 'Company #3' }, { children: '2015-2017' }]}
               description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
               non alias eius aliquid obcaecati quaerat consectetur suscipit
               consequuntur incidunt tempora."
               list={[
-                {
-                  listItem: 'Lorem, ipsum dolor.',
-                  listItem2: 'Lorem, ipsum dolor.',
-                },
+                { children: 'Lorem, ipsum dolor.' },
+                { children: 'Lorem, ipsum dolor.' },
               ]}
             />
           </div>
