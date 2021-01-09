@@ -1,0 +1,11 @@
+.header-lang {
+  float: right;
+  margin: 17px;
+  background-color: var(--color-grey);
+  padding: 5px 10px;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
