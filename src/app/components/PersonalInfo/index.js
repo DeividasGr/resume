@@ -1,7 +1,7 @@
 import React from 'react';
 import './index.css';
 
-function PersonalInfo({ jobPosition, jobInfo = [], description, list = [] }) {
+function PersonalInfo({ jobPosition, jobInfo = [], children, list = [] }) {
   return (
     <div className="work-box">
       <h4>{jobPosition}</h4>
@@ -10,7 +10,7 @@ function PersonalInfo({ jobPosition, jobInfo = [], description, list = [] }) {
           <p {...info}></p>
         </div>
       ))}
-      <p>{description}</p>
+      <p>{children}</p>
       <ul>
         {list.map((singleList, index) => (
           <li key={index} {...singleList} />

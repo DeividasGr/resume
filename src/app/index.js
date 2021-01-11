@@ -91,69 +91,95 @@ function App() {
           </ContentBox>
         </section>
         <section>
-          <ContentBox
-            className="tech-skills"
-            title="TECHNICAL SKILLS"
-          ></ContentBox>
-          <div className="work-row">
-            <PersonalInfo
-              jobPosition="JOB POSITION #1"
-              jobInfo={[
-                { children: 'Company #1' },
-                { children: '2018-present' },
-              ]}
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              non alias eius aliquid obcaecati quaerat consectetur suscipit
-              consequuntur incidunt tempora."
-              list={[
-                { children: 'Lorem, ipsum dolor.' },
-                { children: 'Lorem, ipsum dolor.' },
-              ]}
-            />
-            <PersonalInfo
-              jobPosition="JOB POSITION #2"
-              jobInfo={[{ children: 'Company #2' }, { children: '2017-2018' }]}
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              non alias eius aliquid obcaecati quaerat consectetur suscipit
-              consequuntur incidunt tempora."
-              list={[
-                { children: 'Lorem, ipsum dolor.' },
-                { children: 'Lorem, ipsum dolor.' },
-              ]}
-            />
-            <PersonalInfo
-              jobPosition="JOB POSITION #3"
-              jobInfo={[{ children: 'Company #3' }, { children: '2015-2017' }]}
-              description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
-              non alias eius aliquid obcaecati quaerat consectetur suscipit
-              consequuntur incidunt tempora."
-              list={[
-                { children: 'Lorem, ipsum dolor.' },
-                { children: 'Lorem, ipsum dolor.' },
-              ]}
-            />
-          </div>
+          <ContentBox className="tech-skills" title="TECHNICAL SKILLS">
+            <div className="work-row">
+              <PersonalInfo
+                jobPosition="JOB POSITION #1"
+                jobInfo={[
+                  { children: 'Company #1' },
+                  { children: '2018-present' },
+                ]}
+                list={[
+                  { children: 'Lorem, ipsum dolor.' },
+                  { children: 'Lorem, ipsum dolor.' },
+                ]}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                non alias eius aliquid obcaecati quaerat consectetur suscipit
+                consequuntur incidunt tempora.
+              </PersonalInfo>
+              <PersonalInfo
+                jobPosition="JOB POSITION #2"
+                jobInfo={[
+                  { children: 'Company #2' },
+                  { children: '2017-2018' },
+                ]}
+                list={[
+                  { children: 'Lorem, ipsum dolor.' },
+                  { children: 'Lorem, ipsum dolor.' },
+                ]}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                non alias eius aliquid obcaecati quaerat consectetur suscipit
+                consequuntur incidunt tempora.
+              </PersonalInfo>
+              <PersonalInfo
+                jobPosition="JOB POSITION #3"
+                jobInfo={[
+                  { children: 'Company #3' },
+                  { children: '2015-2017' },
+                ]}
+                list={[
+                  { children: 'Lorem, ipsum dolor.' },
+                  { children: 'Lorem, ipsum dolor.' },
+                ]}
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia,
+                non alias eius aliquid obcaecati quaerat consectetur suscipit
+                consequuntur incidunt tempora.
+              </PersonalInfo>
+            </div>
+          </ContentBox>
         </section>
       </main>
       <footer className="footer">
-        <Footer title="ADDRESS" isLink={false} />
-        <Footer title="CONTACT" isLink />
-        <Footer title="SOCIAL" isLink />
-        {/* <div className="footer-box">
-          <h3>ADDRESS</h3>
-          <p>Imaginery St. 52</p>
-          <p>Vilnius, Narnia</p>
-        </div>
-        <div className="footer-box">
-          <h3>CONTACT</h3>
-          <a href="tel:+370639650000">+370639650000</a>
-          <a href="mailto:email@ytest.com">email@ytest.com</a>
-        </div>
-        <div className="footer-box">
-          <h3>SOCIAL</h3>
-          <a href="https://www.linkedin.com/">Linkedin/username</a>
-          <a href="https://twitter.com/">Twitter/@username</a>
-        </div> */}
+        <Footer
+          title="ADDRESS"
+          content={[
+            { isLink: false, content: 'Imaginery St. 52' },
+            { isLink: false, content: 'Vilnius, Narnia' },
+          ]}
+        />
+        <Footer
+          title="CONTACT"
+          content={[
+            {
+              isLink: true,
+              content: '+370639650000',
+              href: 'tel:+370639650000',
+            },
+            {
+              isLink: true,
+              content: 'email@ytest.com',
+              href: 'mailto:email@ytest.com',
+            },
+          ]}
+        />
+        <Footer
+          title="SOCIAL"
+          content={[
+            {
+              isLink: true,
+              content: 'Linkedin/username',
+              href: 'https://www.linkedin.com/',
+            },
+            {
+              isLink: true,
+              content: 'Twitter/@username',
+              href: 'https://twitter.com/',
+            },
+          ]}
+        />
       </footer>
     </div>
   );

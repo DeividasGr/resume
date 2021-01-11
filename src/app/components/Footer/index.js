@@ -1,12 +1,18 @@
 import React from 'react';
 
-function Footer({ isLink }) {
-  // const assignedLink = isLink ? <a></a>
+function Footer({ title, content }) {
   return (
     <div className="footer-box">
-      <h3>ADDRESS</h3>
-      <p>Imaginery St. 52,</p>
-      <p>Vilnius, Narnia</p>
+      <h3>{title}</h3>
+      {content.map((value, index) =>
+        value.isLink ? (
+          <a key={index} href={value.href}>
+            {value.content}
+          </a>
+        ) : (
+          <p key={index}>{value.content}</p>
+        )
+      )}
     </div>
   );
 }
