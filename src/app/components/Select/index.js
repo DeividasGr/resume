@@ -1,9 +1,14 @@
 import React from 'react';
 import './index.css';
 
-function Select({ options = [] }) {
+function Select({ options = [], changeLanguage }) {
   return (
-    <select className="header-lang" name="languages" id="languages">
+    <select
+      onChange={changeLanguage}
+      className="header-lang"
+      name="languages"
+      id="languages"
+    >
       {options.map((singleOption, index) => (
         <option key={index} {...singleOption}></option>
       ))}

@@ -1,22 +1,26 @@
 import React from 'react';
 import './index.css';
 
-function PersonalInfo({ jobPosition, jobInfo = [], children, list = [] }) {
+function PersonalInfo({ experiences }) {
   return (
-    <div className="work-box">
-      <h4>{jobPosition}</h4>
-      {jobInfo.map((info, index) => (
-        <div key={index}>
-          <p {...info}></p>
-        </div>
-      ))}
-      <p>{children}</p>
-      <ul>
-        {list.map((singleList, index) => (
-          <li key={index} {...singleList} />
-        ))}
-      </ul>
-    </div>
+    <>
+      {experiences.map((experience, index) => {
+        return (
+          <div key={index} className="work-box">
+            {experience.info.map((information, index) => {
+              return (
+                <div key={index}>
+                  <h4>{information.position}</h4>
+                  <p>{information.company}</p>
+                  <p>{information.years}</p>
+                </div>
+              );
+            })}
+            <p>{experience.text}</p>
+          </div>
+        );
+      })}
+    </>
   );
 }
 

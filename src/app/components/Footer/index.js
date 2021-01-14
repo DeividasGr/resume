@@ -1,19 +1,11 @@
 import React from 'react';
+import FooterBox from '../FooterBox';
 
-function Footer({ title, content }) {
+function Footer({ footerInfo }) {
   return (
-    <div className="footer-box">
-      <h3>{title}</h3>
-      {content.map((value, index) =>
-        value.isLink ? (
-          <a key={index} href={value.href}>
-            {value.content}
-          </a>
-        ) : (
-          <p key={index}>{value.content}</p>
-        )
-      )}
-    </div>
+    <>
+      <FooterBox footerInfo={footerInfo} />
+    </>
   );
 }
 

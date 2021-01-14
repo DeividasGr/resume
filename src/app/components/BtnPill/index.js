@@ -1,14 +1,22 @@
 import './index.css';
 
-function Pill({ children, color }) {
-  const assignedColor = ['green', 'yellow', 'red'].includes(color)
-    ? color
-    : 'grey';
-
+function Pill({ pillInfo }) {
   return (
-    <p>
-      <span className={assignedColor}>{children}</span>
-    </p>
+    <>
+      {pillInfo.map((singlePill, index) => {
+        const assignedColor = ['green', 'yellow', 'red'].includes(
+          singlePill.color
+        )
+          ? singlePill.color
+          : 'grey';
+
+        return (
+          <p key={index}>
+            <span className={assignedColor}>{singlePill.text}</span>
+          </p>
+        );
+      })}
+    </>
   );
 }
 
