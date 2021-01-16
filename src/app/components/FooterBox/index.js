@@ -4,7 +4,7 @@ import './index.css';
 function Footer({ footerInfo }) {
   return footerInfo.map((footerBox, index) => {
     return (
-      <div key={index} className="footer-box">
+      <div key={index} className="footer__box">
         <h3>{footerBox.title}</h3>
         {footerBox.content.map((value, index) =>
           value.isLink ? (

@@ -5,8 +5,8 @@ import './index.css';
 function ContentBox({ className, children, title = '' }) {
   return (
     <div className={className}>
-      <h3>{title}</h3>
-      <Divider />
+      <h3 className={`${className}__header`}>{title}</h3>
+      <Divider isFancy />
       {children}
     </div>
   );

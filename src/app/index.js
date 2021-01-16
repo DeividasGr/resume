@@ -1,12 +1,12 @@
 import { useState } from 'react';
 import Pill from './components/BtnPill';
-import Select from './components/Select';
 import ContentBox from './components/ContentBox';
 import SocialLinks from './components/SocialLinks';
 import PersonalInfo from './components/PersonalInfo';
 import Footer from './components/Footer';
 import Education from './components/Education';
 import Header from './components/Header';
+import Divider from './components/Divider';
 import language from './data';
 import './index.css';
 
@@ -19,50 +19,18 @@ function App() {
 
   return (
     <div className="container">
-      <header className="header">
-        <Select
-          changeLanguage={changeLanguage}
-          options={[
-            { value: 'en', children: 'English' },
-            { value: 'lt', children: 'Lietuviškai' },
-          ]}
-        />
-      </header>
-      <main>
-        <Header name="DEIVIDAS" title={language[lang].jobTitle} />
+      <Header
+        name="DEIVIDAS GRUZDZEVIČIUS"
+        title={language[lang].jobTitle}
+        changeLanguage={changeLanguage}
+      />
+      <main className="main">
         <section className="first-row">
-          <ContentBox className="links" title="LINKS">
-            <SocialLinks
-              href="https://www.linkedin.com/"
-              image="https://freepngimg.com/thumb/linkedin/5-2-linkedin-picture.png"
-              alt="linkedin img"
-            >
-              LINKEDIN
-            </SocialLinks>
-            <SocialLinks
-              href="https://twitter.com/"
-              image="https://www.cbronline.com/wp-content/uploads/2016/06/twitter2.png"
-              alt="twitter img"
-            >
-              TWITTER
-            </SocialLinks>
-            <SocialLinks
-              href="https://github.com/"
-              image="https://avatars1.githubusercontent.com/u/9919?s=200&v=4"
-              alt="github img"
-            >
-              GITHUB
-            </SocialLinks>
-            <SocialLinks
-              href="https://dev.to/"
-              image="https://cdn4.iconfinder.com/data/icons/logos-and-brands-1/512/84_Dev_logo_logos-512.png"
-              alt="blog img"
-            >
-              BLOG
-            </SocialLinks>
+          <ContentBox className="links" title={language[lang].links.title}>
+            <SocialLinks socialItems={language[lang].links.items} />
           </ContentBox>
           <ContentBox className="about-me" title={language[lang].aboutMe.title}>
-            <p>{language[lang].aboutMe.text}</p>
+            <p className="about-me__text">{language[lang].aboutMe.text}</p>
           </ContentBox>
           <ContentBox
             className="education"
@@ -85,9 +53,10 @@ function App() {
             className="tech-skills"
             title={language[lang].experience.title}
           >
-            <div className="work-row">
+            <div className="experience">
               <PersonalInfo experiences={language[lang].experience.data} />
             </div>
+            <Divider isFancy={false} />
           </ContentBox>
         </section>
       </main>

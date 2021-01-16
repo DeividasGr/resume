@@ -6,7 +6,7 @@ function PersonalInfo({ experiences }) {
     <>
       {experiences.map((experience, index) => {
         return (
-          <div key={index} className="work-box">
+          <div key={index} className="experience__container">
             {experience.info.map((information, index) => {
               return (
                 <div key={index}>

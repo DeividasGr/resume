@@ -11,7 +11,7 @@ function Pill({ pillInfo }) {
           : 'grey';
 
         return (
-          <p key={index}>
+          <p className="skills__pills" key={index}>
             <span className={assignedColor}>{singlePill.text}</span>
           </p>
         );

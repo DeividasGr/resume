@@ -2,20 +2,22 @@
   grid-column: 1 / 1;
   grid-row: 1;
 }
-.links img {
-  width: 25px;
-  height: 20px;
-  margin-right: 10px;
-  border-radius: 50%;
-  transition: transform 0.4s;
+.social-icon {
+  font-size: 3rem;
+  color: var(--color-black);
+  margin-right: 1rem;
+  transition: all 0.4s;
 }
-.links img:hover,
-.links img:active,
-.links img:focus {
+.social-icon:hover {
+  color: var(--color-green);
   transform: scale(1.1);
-  transition: transform 0.4s;
+  transition: all 0.4s;
 }
 .links-container {
   display: flex;
-  margin-bottom: 5px;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.links__title {
+  font-size: 1.5rem;
 }

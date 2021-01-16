@@ -1,20 +1,24 @@
+.skills__pills {
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
 .green {
   background-color: var(--color-green);
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 .yellow {
   background-color: var(--color-yellow);
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 .red {
   background-color: var(--color-red);
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 .grey {
   background-color: var(--color-grey);
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }

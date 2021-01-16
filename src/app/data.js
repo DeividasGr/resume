@@ -5,9 +5,25 @@ export default {
     aboutMe: {
       title: 'ABOUT ME',
       text:
-        'Folly words widow one downs few age every seven. If miss part by fact he park just shew. Discovered had get considered projection who favourable. Necessary up knowledge it tolerably. Unwilling departure education is be dashwoods or an. Use off agreeable law unwilling sir deficient curiosity instantly. Easy mind life fact with see has bore ten. Parish any chatty can elinor direct for former. Up as meant widow equal an share least. ',
+        'I am a full-stack web developer, passionate about programming, especially with JavaScript, React.js also have experience working with PHP. I am currently looking for a friendly, joyful team who seeks a passionate and ready for challenges front-end / full stack web developer.',
     },
-
+    links: {
+      title: 'LINKS',
+      items: [
+        {
+          title: 'Linkedin/deividas.gruzdzevicius',
+          href: 'https://www.linkedin.com/in/deividas.gruzdzevicius/',
+        },
+        {
+          title: 'Facebook/deividas.gruzdzevicius',
+          href: 'https://www.facebook.com/deividas.gruzdzevicius/',
+        },
+        {
+          title: 'Github/DeividasGr',
+          href: 'https://www.github.com/DeividasGr/',
+        },
+      ],
+    },
     education: {
       title: 'EDUCATION',
       skills: [
@@ -122,7 +138,23 @@ export default {
       text:
         'APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE',
     },
-
+    links: {
+      title: 'NUORODOS',
+      items: [
+        {
+          title: 'Linkedin/deividas.gruzdzevicius',
+          href: 'https://www.linkedin.com/in/deividas.gruzdzevicius/',
+        },
+        {
+          title: 'Facebook/deividas.gruzdzevicius',
+          href: 'https://www.facebook.com/deividas.gruzdzevicius/',
+        },
+        {
+          title: 'Github/DeividasGr',
+          href: 'https://www.github.com/DeividasGr/',
+        },
+      ],
+    },
     education: {
       title: 'IŠSILAVINIMAS',
       skills: [

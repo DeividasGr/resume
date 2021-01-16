@@ -2,28 +2,31 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
   text-align: center;
 }
-.footer-box h3 {
+.footer__box h3 {
   background-color: var(--color-black);
+  font-size: 2rem;
   color: white;
-  width: 250px;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  width: 25rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
 }
-.footer-box p {
+.footer__box p {
   font-weight: bold;
+  font-size: 1.5rem;
 }
-.footer-box a {
+.footer__box a {
   text-decoration: none;
   color: var(--color-black);
   display: block;
   font-weight: bold;
+  font-size: 1.5rem;
 }
-.footer-box a:hover,
-.footer-box a:active,
-.footer-box a:focus {
+.footer__box a:hover,
+.footer__box a:active,
+.footer__box a:focus {
   color: var(--color-green);
   transition: all 0.4s;
 }

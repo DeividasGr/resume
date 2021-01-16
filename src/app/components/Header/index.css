@@ -1,0 +1,30 @@
+.header {
+  position: relative;
+  background-color: var(--color-green);
+  height: 6rem;
+}
+.hero {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  border: 0.4rem solid var(--color-black);
+  width: 60rem;
+  margin: 0 auto;
+}
+.hero-name {
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.hero-job-title {
+  background-color: var(--color-black);
+  color: white;
+  width: 25rem;
+  padding: 1rem;
+  margin: 2.5rem auto;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+  font-size: 1.5rem;
+}
