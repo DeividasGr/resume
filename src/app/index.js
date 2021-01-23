@@ -25,7 +25,7 @@ function App() {
         changeLanguage={changeLanguage}
       />
       <main className="main">
-        <section className="first-row">
+        <section className="grid__layout">
           <ContentBox className="links" title={language[lang].links.title}>
             <SocialLinks socialItems={language[lang].links.items} />
           </ContentBox>

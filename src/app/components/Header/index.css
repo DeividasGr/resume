@@ -28,3 +28,17 @@
   letter-spacing: 0.5rem;
   font-size: 1.5rem;
 }
+
+@media only screen and (max-width: 568px) {
+  .hero {
+    width: 40rem;
+    margin: 2rem auto;
+  }
+  .hero-name {
+    font-size: 2rem;
+  }
+  .hero-job-title {
+    font-size: 1rem;
+    padding: 0.5rem;
+  }
+}

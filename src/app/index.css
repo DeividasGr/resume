@@ -17,7 +17,7 @@ html {
   font-size: 62.5%;
 }
 .container {
-  width: 108rem;
+  max-width: 108rem;
   margin: 0 auto;
 }
 .about-me__header,
@@ -33,7 +33,7 @@ html {
 .main {
   margin-top: 15rem;
 }
-.first-row {
+.grid__layout {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
@@ -41,4 +41,11 @@ html {
   margin-top: 7rem;
   padding: 1rem;
   font-weight: bold;
+}
+
+@media only screen and (max-width: 568px) {
+  .grid__layout {
+    display: flex;
+    flex-direction: column;
+  }
 }
