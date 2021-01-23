@@ -5,14 +5,14 @@ export default {
     aboutMe: {
       title: 'ABOUT ME',
       text:
-        'I am a full-stack web developer, passionate about programming, especially with JavaScript, React.js also have experience working with PHP. I am currently looking for a friendly, joyful team who seeks a passionate and ready for challenges front-end / full stack web developer.',
+        'I am a full-stack web developer, passionate about programming, building websites and web applications especially with JavaScript, React.js also have experience working with PHP. I also enjoy collaborating on projects which help me grow professionally and personally. I am currently looking for a friendly, joyful team who seeks a passionate and ready for challenges front-end / full stack web developer.',
     },
     links: {
       title: 'LINKS',
       items: [
         {
-          title: 'Linkedin/deividas.gruzdzevicius',
-          href: 'https://www.linkedin.com/in/deividas.gruzdzevicius/',
+          title: 'Linkedin/deividas-gruzdzevicius',
+          href: 'https://www.linkedin.com/in/deividas-gruzdzevicius-09891995/',
         },
         {
           title: 'Facebook/deividas.gruzdzevicius',
@@ -28,11 +28,20 @@ export default {
       title: 'EDUCATION',
       skills: [
         {
-          schoolName: 'SCHOOL NAME',
-          year: '2009 - 2013',
-          degree: 'Degree',
+          schoolName: 'Vilnius University Of Applied Sciences VIKO',
+          year: '2012 - 2015',
+          degree: 'Bachelors degree in Agribusiness management',
         },
-        { schoolName: 'SCHOOL NAME', year: '2013 - 2016', degree: 'Degree' },
+        {
+          schoolName: 'Code Academy',
+          year: '2020 - 2021',
+          degree: 'Full Stack Web Developer',
+        },
+        {
+          schoolName: 'Code Academy',
+          year: '2021 - current',
+          degree: 'React',
+        },
       ],
     },
     personal: {
@@ -40,7 +49,8 @@ export default {
       skills: [
         { text: 'TEAMWORK', color: 'green' },
         { text: 'COMMUNICATION', color: 'yellow' },
-        { text: 'ORGANIZATION', color: 'red' },
+        { text: 'FLEXIBILITY', color: 'yellow' },
+        { text: 'RESPONSIBILITY', color: 'green' },
       ],
     },
     technical: {
@@ -50,6 +60,7 @@ export default {
         { text: 'CSS/SCSS', color: 'green' },
         { text: 'JAVASCRIPT', color: 'yellow' },
         { text: 'REACT.JS', color: 'yellow' },
+        { text: 'PHP', color: 'yellow' },
       ],
     },
     experience: {
@@ -58,36 +69,36 @@ export default {
         {
           info: [
             {
-              position: 'JOB POSITION #1',
-              company: 'COMPANY #1',
-              years: '2018 - present',
+              position: 'Massage therapist / Kinesitherapist',
+              company: 'InMedica',
+              years: '2016 - 2017',
             },
           ],
           text:
-            'One advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Duties and responsibilities: Talk with clients about their symptoms, medical history, and desired results, evaluate clients to locate painful or tense areas of the body, manipulate muscles and other soft tissues of the body, provide clients with guidance on stretching, strengthening, overall relaxation, and how to improve their posture, document clients conditions and progress',
         },
 
         {
           info: [
             {
-              position: 'JOB POSITION #2',
-              company: 'COMPANY #2',
-              years: '2017 - 2018',
+              position: 'Massage therapist / Kinesitherapist',
+              company: 'Self-Employed',
+              years: '2017 - 2019',
             },
           ],
           text:
-            'Two advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Duties and responsibilities: Talk with clients about their symptoms, medical history, and desired results, evaluate clients to locate painful or tense areas of the body, manipulate muscles and other soft tissues of the body, provide clients with guidance on stretching, strengthening, overall relaxation, and how to improve their posture, document clients conditions and progress',
         },
         {
           info: [
             {
-              position: 'JOB POSITION #3',
-              company: 'COMPANY #3',
-              years: '2015 - 2017',
+              position: 'Massage therapist / Kinesitherapist',
+              company: 'Nidos Kopos',
+              years: '2019 - 2020',
             },
           ],
           text:
-            'Three advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Duties and responsibilities: Talk with clients about their symptoms, medical history, and desired results, evaluate clients to locate painful or tense areas of the body, manipulate muscles and other soft tissues of the body, provide clients with guidance on stretching, strengthening, overall relaxation, and how to improve their posture',
         },
       ],
     },
@@ -95,8 +106,8 @@ export default {
       {
         title: 'ADDRESS',
         content: [
-          { isLink: false, text: 'Imaginery St. 52' },
-          { isLink: false, text: 'Vilnius, Narnia' },
+          { isLink: false, text: 'Bitėnų g. 3E' },
+          { isLink: false, text: 'Vilnius, Lithuania' },
         ],
       },
       {
@@ -104,13 +115,13 @@ export default {
         content: [
           {
             isLink: true,
-            text: '+370639650000',
-            href: 'tel:+370639650000',
+            text: '+37063965632',
+            href: 'tel:+37063965632',
           },
           {
             isLink: true,
-            text: 'email@ytest.com',
-            href: 'mailto:email@ytest.com',
+            text: 'dgruzdzevicius@gmail.com',
+            href: 'mailto:dgruzdzevicius@gmail.com',
           },
         ],
       },
@@ -119,13 +130,14 @@ export default {
         content: [
           {
             isLink: true,
-            text: 'Linkedin/username',
-            href: 'https://www.linkedin.com/',
+            text: 'Linkedin/deividas-gruzdzevicius',
+            href:
+              'https://www.linkedin.com/in/deividas-gruzdzevicius-09891995/',
           },
           {
             isLink: true,
-            text: 'Twitter/@username',
-            href: 'https://twitter.com/',
+            text: 'Facebook/deividas.gruzdzevicius',
+            href: 'https://www.facebook.com/deividas.gruzdzevicius/',
           },
         ],
       },
@@ -136,14 +148,14 @@ export default {
     aboutMe: {
       title: 'APIE MANE',
       text:
-        'APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE APIE MANE',
+        'Aš esu žiniatinklio (full-stack) programuotojas. Aktyviai domiuosi programavimu, ypatingai JavaScript ir React.JS kalbomis. Taip pat turiu patirties dirbant su PHP. Šiuo metu ieškau galimybės prisijungti prie komandos, kurioje galėčiau įgyti daugiau žinių, darbinės patirties ir tobulėti profesinėje, bei asmeninėje srityse.',
     },
     links: {
       title: 'NUORODOS',
       items: [
         {
-          title: 'Linkedin/deividas.gruzdzevicius',
-          href: 'https://www.linkedin.com/in/deividas.gruzdzevicius/',
+          title: 'Linkedin/deividas-gruzdzevicius',
+          href: 'https://www.linkedin.com/in/deividas-gruzdzevicius-09891995/',
         },
         {
           title: 'Facebook/deividas.gruzdzevicius',
@@ -159,14 +171,19 @@ export default {
       title: 'IŠSILAVINIMAS',
       skills: [
         {
-          schoolName: 'Mokyklos Pavadinimas',
-          year: '2009 - 2013',
-          degree: 'Išsilavinimas',
+          schoolName: 'Vilniaus Kolegija',
+          year: '2012 - 2015',
+          degree: 'Aagroverslo vadybos Profesinis Bakalauras',
         },
         {
-          schoolName: 'Mokyklos Pavadinimas',
-          year: '2013 - 2016',
-          degree: 'Išsilavinimas',
+          schoolName: 'Code Academy',
+          year: '2020 - 2021',
+          degree: 'Žiniatinklio (Full-Stack) programuotojas',
+        },
+        {
+          schoolName: 'Code Academy',
+          year: '2021 - dabar',
+          degree: 'React',
         },
       ],
     },
@@ -174,8 +191,9 @@ export default {
       title: 'ASMENINĖS SAVYBĖS',
       skills: [
         { text: 'KOMANDINIS DARBAS', color: 'green' },
-        { text: 'KOMUNIKACIJA', color: 'yellow' },
-        { text: 'ORGANIZUOTUMAS', color: 'red' },
+        { text: 'KOMUNIKAVIMAS', color: 'yellow' },
+        { text: 'LANKSTUMAS', color: 'yellow' },
+        { text: 'ATSAKINGUMAS', color: 'green' },
       ],
     },
     technical: {
@@ -185,6 +203,7 @@ export default {
         { text: 'CSS/SCSS', color: 'green' },
         { text: 'JAVASCRIPT', color: 'yellow' },
         { text: 'REACT.JS', color: 'yellow' },
+        { text: 'PHP', color: 'yellow' },
       ],
     },
     experience: {
@@ -193,36 +212,36 @@ export default {
         {
           info: [
             {
-              position: 'DARBO POZICIJA #1',
-              company: 'ĮMONĖ #1',
-              years: '2018 - present',
+              position: 'Masažo terapeutas',
+              company: 'InMedica',
+              years: '2016 - 2017',
             },
           ],
           text:
-            'One advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Pareigos ir atsakomybės: komunikuotu su klientais apie jų problemas, sveikatos istoriją ir norimus rezultatus, individualus klientų fizinės būklės įvertinimas ir probleminių vietų nustatymas, parinkti tinkamus tempimo, kūno stiprinimo ir atsipalaidavimo pratimus, kaip gerinti laikyseną, dokumentuoti klientų būklę ir progresą',
         },
 
         {
           info: [
             {
-              position: 'DARBO POZICIJA #2',
-              company: 'ĮMONĖ #2',
-              years: '2017 - 2018',
+              position: 'Masažo terapeutas',
+              company: 'Savarankiška veikla',
+              years: '2017 - 2019',
             },
           ],
           text:
-            'Two advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Pareigos ir atsakomybės: komunikuotu su klientais apie jų problemas, sveikatos istoriją ir norimus rezultatus, individualus klientų fizinės būklės įvertinimas ir probleminių vietų nustatymas, parinkti tinkamus tempimo, kūno stiprinimo ir atsipalaidavimo pratimus, kaip gerinti laikyseną, dokumentuoti klientų būklę ir progresą',
         },
         {
           info: [
             {
-              position: 'DARBO POZICIJA #3',
-              company: 'ĮMONĖ #3',
-              years: '2015 - 2017',
+              position: 'Masažo terapeutas',
+              company: 'Nidos Kopos',
+              years: '2019 - 2020',
             },
           ],
           text:
-            'Three advanced diverted domestic sex repeated bringing you old. Possible procured her trifling laughter thoughts property she met way.',
+            'Pareigos ir atsakomybės: komunikuotu su klientais apie jų problemas, sveikatos istoriją ir norimus rezultatus, individualus klientų fizinės būklės įvertinimas ir probleminių vietų nustatymas, parinkti tinkamus tempimo, kūno stiprinimo ir atsipalaidavimo pratimus, kaip gerinti laikyseną',
         },
       ],
     },
@@ -230,8 +249,8 @@ export default {
       {
         title: 'ADRESAS',
         content: [
-          { isLink: false, text: 'Imaginery St. 52' },
-          { isLink: false, text: 'Vilnius, Narnia' },
+          { isLink: false, text: 'Bitėnų g. 3E' },
+          { isLink: false, text: 'Vilnius, Lithuania' },
         ],
       },
       {
@@ -239,13 +258,13 @@ export default {
         content: [
           {
             isLink: true,
-            text: '+370639650000',
-            href: 'tel:+370639650000',
+            text: '+37063965632',
+            href: 'tel:+37063965632',
           },
           {
             isLink: true,
-            text: 'email@ytest.com',
-            href: 'mailto:email@ytest.com',
+            text: 'dgruzdzevicius@gmail.com',
+            href: 'mailto:dgruzdzevicius@gmail.com',
           },
         ],
       },
@@ -254,13 +273,14 @@ export default {
         content: [
           {
             isLink: true,
-            text: 'Linkedin/username',
-            href: 'https://www.linkedin.com/',
+            text: 'Linkedin/deividas-gruzdzevicius',
+            href:
+              'https://www.linkedin.com/in/deividas-gruzdzevicius-09891995/',
           },
           {
             isLink: true,
-            text: 'Twitter/@username',
-            href: 'https://twitter.com/',
+            text: 'Facebook/deividas.gruzdzevicius',
+            href: 'https://www.facebook.com/deividas.gruzdzevicius/',
           },
         ],
       },
