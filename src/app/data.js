@@ -1,11 +1,12 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default {
   en: {
-    jobTitle: 'Programmer',
+    jobTitle: 'Front-End Developer',
     aboutMe: {
       title: 'ABOUT ME',
+
       text:
-        'I am a full-stack web developer, passionate about programming, building websites and web applications especially with JavaScript, React.js also have experience working with PHP. I also enjoy collaborating on projects which help me grow professionally and personally. I am currently looking for a friendly, joyful team who seeks a passionate and ready for challenges front-end / full stack web developer.',
+        'I am a front-end web developer, passionate about programming, building websites and web applications especially with JavaScript and React.js. Some other tools I have experience with are HTML, CSS, SCSS, PHP. Currently improving my skills as a React.js developer at Code Academy. I also enjoy collaborating on projects which help me grow professionally and personally. Currently looking for a friendly team who seeks a passionate and ready for challenges front-end / full stack web developer.',
     },
     links: {
       title: 'LINKS',
@@ -58,9 +59,12 @@ export default {
       skills: [
         { text: 'HTML', color: 'green' },
         { text: 'CSS/SCSS', color: 'green' },
+        { text: 'BEM methodology', color: 'green' },
+        { text: 'MATERIAL UI', color: 'red' },
         { text: 'JAVASCRIPT', color: 'yellow' },
         { text: 'REACT.JS', color: 'yellow' },
         { text: 'PHP', color: 'yellow' },
+        { text: 'GIT version control system', color: 'yellow' },
       ],
     },
     experience: {
@@ -201,9 +205,12 @@ export default {
       skills: [
         { text: 'HTML', color: 'green' },
         { text: 'CSS/SCSS', color: 'green' },
+        { text: 'BEM metodologija', color: 'green' },
+        { text: 'MATERIAL UI', color: 'red' },
         { text: 'JAVASCRIPT', color: 'yellow' },
         { text: 'REACT.JS', color: 'yellow' },
         { text: 'PHP', color: 'yellow' },
+        { text: 'GIT versijavimo systema', color: 'yellow' },
       ],
     },
     experience: {
